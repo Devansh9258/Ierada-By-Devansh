@@ -1,0 +1,59 @@
+.recently-viewed-container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Heading row */
+.recently-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.recently-heading h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.orange {
+  color: #ff6600;
+}
+
+.recently-decoration-left,
+.recently-decoration-right {
+  width: 400px;
+}
+
+.sub-heading {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 10px;
+  color: #666;
+  font-size: 18px;
+}
+
+.sub-description {
+  margin-top: 5px;
+  color: #999;
+  font-size: 16px;
+}
+
+.shop-now-btn {
+  margin-top: 30px;
+  padding: 12px 30px;
+  background: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.shop-now-btn:hover {
+  background: #ff8533;
+  transform: scale(1.05);
+}
