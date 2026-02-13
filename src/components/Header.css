@@ -1,0 +1,161 @@
+/* TOP NAVBAR */
+
+.head-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 40px;
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  gap: 20px;
+}
+
+.logo {
+  height: 45px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Location */
+
+.location-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: #f3f3f3;
+  border-radius: 12px;
+  font-size: 14px;
+  color: #ff5a3c;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.location-bar:hover {
+  background: #ffe8e3;
+}
+
+.location-button {
+  border: none;
+  background: transparent;
+  color: #ff5a3c;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Search */
+
+.search-bar {
+  flex: 1;
+  max-width: 650px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  border-radius: 40px;
+  border: 1.5px solid #ff5a3c;
+  background: #ffffff;
+  transition: 0.2s ease;
+}
+
+.search-bar:focus-within {
+  box-shadow: 0 0 0 3px rgba(255, 90, 60, 0.15);
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 15px;
+  background: transparent;
+}
+
+.icon {
+  color: #888;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.icon:hover {
+  color: #ff5a3c;
+}
+
+/* Right Actions */
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.wishlist-container,
+.cart-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  color: #333;
+}
+
+.wishlist-container:hover,
+.cart-container:hover {
+  color: #ff5a3c;
+}
+
+.profile-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.profile-button:hover {
+  color: #ff5a3c;
+}
+
+/*  CATEGORY NAV  */
+
+.item-nav {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  padding: 12px 40px;
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.item-nav::-webkit-scrollbar {
+  height: 5px;
+}
+
+.item-nav::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.item-nav a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #444;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.item-nav a:hover {
+  color: #ff5a3c;
+}
+
+.item-nav a:first-child {
+  color: #ff5a3c;
+  font-weight: 600;
+}

@@ -1,0 +1,26 @@
+.new-arrival-container {
+  padding: 50px 20px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+.new-arrival-container h2 .orange {
+  color: #fe5304;
+}
+
+.new-arrival-banner {
+  margin: 30px auto;
+  max-width: 1000px;
+  overflow: hidden;
+}
+
+.new-arrival-banner:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.arrival-left-decoration,
+.arrival-right-decoration {
+  margin: 0 100px;
+}
