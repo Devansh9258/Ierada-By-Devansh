@@ -3,6 +3,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Sale from "../assets/Sale.jpg";
 import MegaSale from "../assets/MegaSale.jpg";
+import Discount from "../assets/Discount.jpg";
+import Discount2 from "../assets/Discount2.jpg";
 
 export default function Carousel() {
   var settings = {
@@ -36,13 +38,13 @@ export default function Carousel() {
         </div>
         <div>
           <img
-            src="https://images.pexels.com/photos/18887675/pexels-photo-18887675.jpeg?_gl=1*12pfcb7*_ga*Mjc1Nzc4NjY2LjE3NzA5NzU2OTk.*_ga_8JE65Q40S6*czE3NzA5NzU2OTgkbzEkZzEkdDE3NzA5NzU3MzIkajI2JGwwJGgw"
+            src={Discount}
             style={{ height: "200px", width: "100%", cursor: "pointer" }}
           />
         </div>
         <div>
           <img
-            src="https://images.pexels.com/photos/18887675/pexels-photo-18887675.jpeg?_gl=1*12pfcb7*_ga*Mjc1Nzc4NjY2LjE3NzA5NzU2OTk.*_ga_8JE65Q40S6*czE3NzA5NzU2OTgkbzEkZzEkdDE3NzA5NzU3MzIkajI2JGwwJGgw"
+            src={Discount2}
             style={{ height: "200px", width: "100%", cursor: "pointer" }}
           />
         </div>
