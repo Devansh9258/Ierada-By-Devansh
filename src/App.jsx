@@ -4,7 +4,6 @@ import Categories from "./components/Categories";
 import NewArrival from "./components/New-arrival";
 import BuyRegion from "./components/Buy-Region";
 import RecentlyViewed from "./components/Recently-viewed";
-import "./App.css";
 export default function App() {
   return (
     <>
@@ -14,6 +13,12 @@ export default function App() {
       <NewArrival />
       <BuyRegion />
       <RecentlyViewed />
+
+      <footer>
+        <p className="footer">
+          Copyright © 2026. All rights reserved by Devansh Mehra.
+        </p>
+      </footer>
     </>
   );
 }

@@ -1,38 +1,44 @@
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
+  overflow-x: hidden;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #a08484;
+  color: #333;
+  font-size: 14px;
 }
 
 /* RESPONSIVE */
-
-@media (max-width: 992px) {
-  .head-navbar {
-    flex-wrap: wrap;
-    padding: 15px 20px;
+@media (max-width: 768px) {
+  .region-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20px;
   }
 
-  .search-bar {
-    order: 3;
+  .region-left-decoration,
+  .region-right-decoration {
     width: 100%;
-    max-width: 100%;
-  }
-
-  .item-nav {
-    padding: 10px 20px;
   }
 }
 
-@media (max-width: 600px) {
-  .location-bar {
-    display: none;
+@media (max-width: 480px) {
+  .region-grid {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .buy-region-container h2 {
+    font-size: 18px;
+    gap: 10px;
   }
 
-  .wishlist-container span,
-  .cart-container span {
-    display: none;
-  }
-
-  .actions {
-    gap: 15px;
+  .sub-heading {
+    font-size: 18px;
   }
 }

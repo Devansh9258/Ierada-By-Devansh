@@ -5,6 +5,8 @@ import Tamil_Nadu from "../assets/Tamil_Nadu.jpg";
 import Gujarat from "../assets/Gujarat.jpg";
 import Uttar_pradesh from "../assets/Uttar_pradesh.jpg";
 import Panipat from "../assets/Panipat.jpg";
+import Shopping from "../assets/Shopping.jpg";
+
 export default function BuyRegion() {
   return (
     <div className="buy-region">
@@ -30,27 +32,47 @@ export default function BuyRegion() {
         Would you like me to make this more formal (professional website style)
         or catchy (marketing/ad style)?
       </p>
-      <div className="region-grid">
-        <div
-          className="region-item"
-          onClick={() => alert("Tamil Nadu clicked!")}
-        >
-          <img src={Tamil_Nadu} alt="Tamil Nadu" />
+      <div className="region-section">
+        <div className="region-grid">
+          <div className="region-item">
+            <img src={Tamil_Nadu} alt="Tamil Nadu" />
+            <div className="overlay">
+              <button onClick={() => alert("Coming Soon!")}>
+                Explore more →
+              </button>
+            </div>
+          </div>
+
+          <div className="region-item">
+            <img src={Uttar_pradesh} alt="Uttar Pradesh" />
+            <div className="overlay">
+              <button onClick={() => alert("Coming Soon!")}>
+                Explore more →
+              </button>
+            </div>
+          </div>
+
+          <div className="region-item">
+            <img src={Gujarat} alt="Gujarat" />
+            <div className="overlay">
+              <button onClick={() => alert("Coming Soon!")}>
+                Explore more →
+              </button>
+            </div>
+          </div>
+
+          <div className="region-item">
+            <img src={Panipat} alt="Uttar Pradesh" />
+            <div className="overlay">
+              <button onClick={() => alert("Coming Soon!")}>
+                Explore more →
+              </button>
+            </div>
+          </div>
         </div>
 
-        <div
-          className="region-item"
-          onClick={() => alert("Uttar Pradesh clicked!")}
-        >
-          <img src={Uttar_pradesh} alt="Uttar Pradesh" />
-        </div>
-
-        <div className="region-item" onClick={() => alert("Gujarat clicked!")}>
-          <img src={Gujarat} alt="Gujarat" />
-        </div>
-
-        <div className="region-item" onClick={() => alert("Panipat clicked!")}>
-          <img src={Panipat} alt="Panipat" />
+        <div className="shopping-banner">
+          <img src={Shopping} alt="Mega Sale" />
         </div>
       </div>
     </div>
